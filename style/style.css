@@ -221,3 +221,291 @@ nav ul li a:hover{
   background-repeat: no-repeat;
 }
 
+#navPage {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+#navPage h2 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  color: #8D8D8D;
+
+}
+
+.arrow{
+  border: 2px solid red;
+}
+
+#navPage i {
+  font-size: 24px;
+  color: #E40020;
+}
+
+.page-num {
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 600;
+
+}
+
+#navPage h2:not(.arrow):hover {
+  border: none;
+  background: #FE010052;
+  color: #000;
+}
+
+#navPage h2:not(.arrow):active {
+  border: none;
+  background: #FE010052;
+  color: #000;
+}
+
+
+
+
+@media all and (max-width: 1200px) {
+
+  .btnStyle {
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .videoCard {
+    width: 450px;
+    height: 430px;
+  }
+
+  .gitBtnPosition {
+    top: 5vh;
+  }
+  
+  .circles {
+    width: 80px;
+    height: 80px;
+  }
+
+  .webVideoPic {
+    bottom: 25px;
+  }
+
+}
+
+
+@media all and (max-width: 1130px) {
+  .webCard {
+    height: 600px;
+  }
+
+  .gitBtnPosition {
+    top: 7vh;
+  }
+
+  .webVideoPic {
+    bottom: 45px;
+  }
+
+  #mainCard {
+    height: 1452px;
+  }
+  
+
+}
+
+
+@media all and (max-width: 1118px) {
+
+  #mainCard {
+    height: 1552px;
+  }
+  
+}
+
+
+
+@media all and (max-width: 1090px) {
+
+  .videoCard {
+    height: 460px;
+  }
+
+  .webCard {
+    height: 620px;
+  }
+
+  .webCardTitle{
+    font-size: 28px;
+  }
+
+  .btnStyle {
+    width: 80px;
+    height: 30px;
+  }
+
+  .webCardContent {
+    font-size: 12px;
+  }
+
+}
+
+
+@media all and (max-width: 1017px) {
+
+  .webCardTitle{
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 995px) {
+
+  .webCard {
+    height: 600px;
+  }
+
+  .videoCard {
+    width: 400px;
+    height: 400px;
+  }
+
+  .gitBtnPosition {
+    top: 9vh;
+  }
+
+  .circles {
+    width: 70px;
+    height: 70px;
+  }
+
+  .webVideoPic {
+    bottom: 55px;
+  }
+
+}
+
+@media all and (max-width: 950px) {
+
+  .webCard {
+    height: 630px;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+  .webContent {
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+
+  .webCard {
+    height: 670px;
+  }
+
+  .videoCard {
+    width: 300px;
+    height: 400px;
+  }
+
+  .gitBtnPosition {
+    top: 13vh;
+  }
+
+  .circles {
+    width: 60px;
+    height: 60px;
+  }
+
+  .webVideoPic {
+    bottom: 100px;
+    gap: 15px;
+  }
+
+  #mainCard {
+    height: 1652px;
+  }
+
+  #navPage h2 {
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  #navPage i {
+    font-size: 20px;
+  }
+  
+  .page-num {
+    font-size: 20px;
+  }
+
+}
+
+@media all and (max-width: 430px) {
+  .webCard {
+    height: 895px;
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+
+  .webContent {
+    grid-row: 2/3;
+  }
+
+  .videoCard {
+    width: 300px;
+    height: 260px;
+  }
+
+  #secondWebCard {
+    display: none;
+  }
+
+  #mainCard {
+    height: 920px;
+  }
+
+  .gitBtnPosition {
+    top: 1vh;
+  }
+
+  .webVideoPic {
+    bottom: 0;
+    gap: 15px;
+  }
+
+}
+
+
+@media (max-width: 426px){
+
+  #navPage {
+      gap: 20px;
+      margin-bottom: 40px;
+      margin: 30px 5%;
+      background: #FFFF;
+      height: 65px;
+      align-items: center;
+      border-radius: 20px;
+  }
+
+  #navPage h2 {
+      width: 28.21px;
+      height: 28.71px;
+  }
+
+  .page-num {
+      font-size: 16px;
+  }
+
+  #navPage i {
+      font-size: 16px;
+  }
+
+}
